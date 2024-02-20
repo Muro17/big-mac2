@@ -1,5 +1,6 @@
 :root {
     --cor-de-fundo:#020002;
+    --cor-de-letra:#ffffff;
 }
 
 body{
@@ -7,5 +8,5 @@ body{
     background-color:var(--cor-de-fundo);
 }
 h1{
-    color:rgb(253, 169, 1);
+    color:var(--cor-de-letra);
 }
