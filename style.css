@@ -1,10 +1,10 @@
 body{
 
-    background-color:var(cor-de-fundo) black;
+    background-color:var(cor-de-fundo)
 }
 h1{
     color:rgb(253, 169, 1)
 }
 :root {
-    cor-de-fundo:#dd01fa
+    cor-de-fundo:#020002
 }
