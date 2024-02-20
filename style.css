@@ -3,7 +3,7 @@ body{
     background-color:var(cor-de-fundo) black;
 }
 h1{
-    color:floralwhite
+    color:rgb(253, 169, 1)
 }
 :root {
     cor-de-fundo:#33fa01
