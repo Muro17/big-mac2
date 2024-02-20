@@ -1,6 +1,10 @@
 body{
+
     background-color: black;
 }
 h1{
     color:floralwhite
+}
+:root {
+    background:#23232323
 }
