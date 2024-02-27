@@ -1,6 +1,7 @@
 :root {
     --cor-de-fundo:#020002;
     --cor-de-letra:#fd8f00;
+    --cor-de-parede:pink;
 }
 
 body{
@@ -12,7 +13,7 @@ h1{
 }
 
 .bundinhasuja{
-display:flex
-var(--cor-de-fundo)
+display:flex;
+background-color: var(--cor-de-parede);
 
 }
