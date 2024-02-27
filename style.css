@@ -18,3 +18,7 @@ background-color: var(--cor-de-parede);
 align-items: center;
 justify-content: space-evenly;
 }
+
+.batamarela{
+    background-clip: repeat;
+}
