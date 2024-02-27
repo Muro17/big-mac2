@@ -15,5 +15,6 @@ h1{
 .bundinhasuja{
 display:flex;
 background-color: var(--cor-de-parede);
-
+align-items: center;
+justify-content: space-evenly;
 }
