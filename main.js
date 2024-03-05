@@ -1,15 +1,15 @@
 alert('tobinha');
 let nomeUsuario = "";
-let texto = document.querySelector('#texto');
+let texto = document.querySelector('anterior');
 
 while(nomeUsuario == ""){
     nomeUsuario = prompt('Qual tamanho das fezes?');
 }
 
 if(nomeUsuario == null){
-    #texto.textContent = 'normal';
+    anterior.textContent = 'normal';
 } else{
-    texto.textContent = nomeUsuario;
+    anterior.textContent = nomeUsuario;
 }
 
 
