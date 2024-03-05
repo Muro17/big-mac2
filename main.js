@@ -1,6 +1,6 @@
 alert('tobinha');
 let nomeUsuario = "";
-let texto = document.querySelector('anterior');
+let anterior = document.querySelector('anterior');
 
 while(nomeUsuario == ""){
     nomeUsuario = prompt('Qual tamanho das fezes?');
