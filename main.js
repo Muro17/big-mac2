@@ -1,2 +1,3 @@
 alert('tobinha');
-prompt('Você caga mole ou duro?')
+let nomeUsuario = prompt('Você caga mole ou duro?');
+let texto = document.querySelector('#texto');
