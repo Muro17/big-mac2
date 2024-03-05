@@ -7,7 +7,7 @@ while(nomeUsuario == ""){
 }
 
 if(nomeUsuario == null){
-    anterior.textContent = 'não';
+    anterior.textContent = 'anão';
 } else{
     anterior.textContent = nomeUsuario;
 }
