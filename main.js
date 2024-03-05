@@ -1,5 +1,5 @@
 alert('tobinha');
-
+let nomeUsuario = "";
 let texto = document.querySelector('#texto');
 
 while(nomeUsuario == ""){
