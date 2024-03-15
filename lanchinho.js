@@ -1,6 +1,9 @@
 let TamanhoDaPeça = 2;
+let chupe = '';
 
-let chupe = prompt('Qual tamanho da minha peça? só o número');
+while(chupe == ''){
+    chupe = prompt('Qual tamanho da minha peça? só o número');
+}
 
 if(TamanhoDaPeça == chupe){
     alert('broxa kkkkkkkk');
