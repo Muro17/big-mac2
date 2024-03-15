@@ -1,6 +1,8 @@
-let TamanhoDaPeça = Math.random()*30;
+let TamanhoDaPeça = Math.floor(Math.random()*30);
 console.log(TamanhoDaPeça);
 let chupe = '';
+
+
 
 while(chupe == ''){
     chupe = prompt('Qual tamanho da minha peça? só o número de 0 a 30');
