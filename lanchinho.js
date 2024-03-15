@@ -1,4 +1,5 @@
 let TamanhoDaPeça = 2;
+console.log(TamanhoDaPeça);
 let chupe = '';
 
 while(chupe == ''){
