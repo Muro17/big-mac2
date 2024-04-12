@@ -43,3 +43,7 @@ justify-content: space-evenly;
     background-color: black;
     color:red;
 }
+
+.aba-conteudo{
+    display: none;
+}
