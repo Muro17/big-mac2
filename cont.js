@@ -24,8 +24,9 @@ let tempoObjetivo4 = new Date ('2030-08-08T12:00:31');
 
 let tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 
+
 for(let i = 0; i < contadores.length; i++) {
-contadores[i].textContent = calculaTempo(tempos[1]);
+contadores[i].textContent = calculaTempo(tempos[i]);
 }
 
 function calculaTempo(tempoObjetivo){
