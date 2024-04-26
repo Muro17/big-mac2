@@ -17,10 +17,10 @@ for(let y = 0; y< botinhos.length; y++){
 
 const contadores = document.querySelectorAll('.contador');
 let tempoAtual = new Date();
-let tempoObjetivo1 = new Date ('Dec 31 3999 23:59:59');
-let tempoObjetivo2 = new Date ('Oct 11 6010 20:05:00');
-let tempoObjetivo3 = new Date ('Apr 27 2024 15:44:00');
-let tempoObjetivo4 = new Date ('Sep 11 5998 23:59:59');
+let tempoObjetivo1 = new Date ('3999-12-31T23:59:00');
+let tempoObjetivo2 = new Date ('6010-10-11T20:05:00');
+let tempoObjetivo3 = new Date ('2024-04-26T15:30:00');
+let tempoObjetivo4 = new Date ('2030-08-08T12:00:31');
 
 let tempoFinal = tempoObjetivo1 - tempoAtual;
 
