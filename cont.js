@@ -12,7 +12,6 @@ for(let y = 0; y< botinhos.length; y++){
         botinhos[x].classList.add('ativo');
         textos[x].classList.add('ativa');
     }
-    botinhos[x].classList.remove('ativo');
 }
 
 const contadores = document.querySelectorAll('.contador');
