@@ -16,3 +16,8 @@ for(let y = 0; y< botinhos.length; y++){
 }
 
 const contadores = document.querySelectorAll('.contador');
+let tempoAtual = new Date();
+let tempoObjetivo1 = new Date ('Fri Dec 31 3999 23:59:59');
+let tempoFinal = tempoObjetivo - tempoAtual;
+
+contadores[0].textContent = tempoFinal;
