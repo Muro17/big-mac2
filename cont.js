@@ -20,4 +20,6 @@ let tempoAtual = new Date();
 let tempoObjetivo1 = new Date ('Fri Dec 31 3999 23:59:59');
 let tempoFinal = tempoObjetivo1 - tempoAtual;
 
-contadores[0].textContent = tempoFinal;
+let segundos = tempoFinal/1000;
+
+contadores[0].textContent = segundos;
