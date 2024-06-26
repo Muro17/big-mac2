@@ -1,7 +1,7 @@
 :root {
-    --cor-de-fundo:#020002;
-    --cor-de-letra:#fd00db;
-    --cor-de-parede:pink;
+    --cor-de-fundo:#006600;
+    --cor-de-letra:#ffffff;
+    --cor-de-parede:rgb(38, 252, 66);
 }
 
 body{
@@ -24,12 +24,12 @@ justify-content: space-evenly;
 }
 
 #texto{
-    color: purple;
+    color: rgb(24, 218, 185);
     
 }
 
 .contagem{
-    background-color: #ad00fd;
+    background-color: #00f5fd;
     padding: 20px 0;
     text-align: center;
 }
@@ -41,7 +41,7 @@ justify-content: space-evenly;
 
 .ativo{
     background-color: black;
-    color:red;
+    color:rgb(229, 255, 0);
 }
 
 .aba-conteudo{
